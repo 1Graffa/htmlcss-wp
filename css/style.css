@@ -32,8 +32,24 @@ header{
 }
 .testata{
   width: 100%;
-  height: 75%;
+  height: 300px;
   border: 6px solid white;
+}
+.testata img {
+  width: 500px;
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50% , -50%)
+}
+.testata h1{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50% , -50%)
 }
 /* MENU */
 .menu{
@@ -76,27 +92,30 @@ ul.menu li:hover{
   height: 300px;
   width: 20%;
   border-radius: 5px;
+  background-color: white;
+}
+.c-sx i{
+  font-size: 30px;
+  color: orange;
+  vertical-align: super;
 }
 .c-c{
   background-color: white;
-  height: 280px;
   width: calc(60% - 40px);
   margin: 0 20px;
   border-radius: 5px;
 }
 .c-dx{
-  background-color: white;
   width: 20%;
-  border-radius: 5px;
 }
 .widget{
   margin-bottom: 20px;
   width: 100%;
-  height: 220px;
   background-color: white;
+  border-radius: 5px;
 }
 .widget h2{
-  padding: 15px;
+  padding: 5px;
   text-align: center;
 }
 .widget p{
@@ -110,17 +129,25 @@ ul.menu li:hover{
 }
 .c-c p{
   padding: 10px 15px;
-  line-height: 1.6;
+  line-height: 3;
   text-align: left;
 }
 footer{
   background-color: white;
-  height: 100px;
   width: 100%;
-}
-footer{
   border-radius: 5px;
 }
-.copy{
+.copyright span{
+  display: block;
   text-align: center;
+}
+.social{
+  text-align: center;
+  width: calc(100% / 3);
+}
+.social i{
+  font-size: 100px;
+}
+.social i:hover{
+  color: green;
 }
