@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url(../img/sfondo.png);
+}
 .f-l{
   float: left;
 }
 .container{
-  background-color: lightgrey;
   background-size: cover;
   background-position: center;
   margin: 0 50px;
@@ -22,10 +24,16 @@ main{
   content: "";
   clear: both;
 }
+/* HEADER */
 header{
-  background-color: lightgreen;
+  background-image: url(../img/header.jpg);
   height: 400px;
   position: relative;
+}
+.testata{
+  width: 100%;
+  height: 75%;
+  border: 6px solid white;
 }
 /* MENU */
 .menu{
@@ -49,6 +57,7 @@ ul.menu li{
   color: lightgrey;
   padding-right: 8px;
   padding-left: 8px;
+
 }
 ul.menu .special{
   border-left: 1px solid rgb(51,52,56);
@@ -64,32 +73,33 @@ ul.menu li:hover{
 /* FINE MENU */
 /* COLONNE */
 .c-sx{
-  background-color: pink;
   height: 300px;
   width: 20%;
+  border-radius: 5px;
 }
 .c-c{
-  background-color: coral;
+  background-color: white;
   height: 280px;
   width: calc(60% - 40px);
   margin: 0 20px;
+  border-radius: 5px;
 }
 .c-dx{
-  background-color: yellow;
-  height: 700px;
+  background-color: white;
   width: 20%;
+  border-radius: 5px;
 }
-.lb{
+.widget{
   margin-bottom: 20px;
   width: 100%;
   height: 220px;
-  background-color: red;
+  background-color: white;
 }
-.lb h2{
+.widget h2{
   padding: 15px;
   text-align: center;
 }
-.lb p{
+.widget p{
   padding: 10px 15px;
   line-height: 1.6;
   text-align: left;
@@ -104,7 +114,13 @@ ul.menu li:hover{
   text-align: left;
 }
 footer{
-  background-color: lightgreen;
+  background-color: white;
   height: 100px;
   width: 100%;
+}
+footer{
+  border-radius: 5px;
+}
+.copy{
+  text-align: center;
 }
